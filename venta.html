@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECNO STORE</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="venta.css">
+    <link rel="shortcut icon" href="" type="icon" />
+
+
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nosotros" onclick="seleccionar()">
+
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#precio" onclick="seleccionar()">
+
+                                <span>Productos</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+
+                    <a target="_blank" href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity"
+                data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+
+                <div class="gallery-cell">
+                    <img src="img/carousel-2.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/carousel-5.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+
+    </section>
+    <!-- SECCION SABORES -->
+    <section id="nosotros">
+        <div class="content-page cover-background font-content-services">
+            <section class="all-services section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h2 class="tittles-pages">Acerca de Tecno Store</h2>
+                            <i class="fa fa-tablet fa-5x"></i> &nbsp; <i class="fa fa-mobile fa-5x"></i>
+                            <p class="lead">
+                                Tecno Store es una empresa que nació en el año 2010 ofreciendo productos de
+                                Electrónica y Computación a través de la web, la misma se diferencia por sus excelentes
+                                precios, atención personalizada y calidad en todos sus productos.-
+
+                                Tecno Store tiene como objetivo satisfacer al cliente en su experiencia de compra
+                                online ofreciéndole sus diferentes servicios, as tambien como proveer a todos nuestro clientes, no solo
+                                de un producto, sino también de una experiencia positiva en su paso por la empresa.
+
+
+                            </p>
+                        </div>
+                        <div class="col-xs-12">
+                            <h2 class="text-center tittles-pages">Nuestros Servicios</h2>
+                            <div class="principal-container-services">
+                                <a href="#!">
+                                    <p class="icon-service"><i class="fa fa-briefcase"></i></p>
+                                    <p class="tittle-service">Título Servicio</p>
+                                    <p class="description-service">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolores ea
+                                        nostrum in at, sequi quae dicta praesentium ad veritatis, saepe a commodi
+                                        assumenda nobis corporis voluptates officiis ipsa illo?
+                                    </p>
+                                </a>
+                                <a href="#!">
+                                    <p class="icon-service"><i class="fa fa-envelope"></i></p>
+                                    <p class="tittle-service">Título Servicio</p>
+                                    <p class="description-service">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolores ea
+                                        nostrum in at, sequi quae dicta praesentium ad veritatis, saepe a commodi
+                                        assumenda nobis corporis voluptates officiis ipsa illo?
+                                    </p>
+                                </a>
+                                <a href="#!">
+                                    <p class="icon-service"><i class="fa fa-wrench"></i></p>
+                                    <p class="tittle-service">Título Servicio</p>
+                                    <p class="description-service">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolores ea
+                                        nostrum in at, sequi quae dicta praesentium ad veritatis, saepe a commodi
+                                        assumenda nobis corporis voluptates officiis ipsa illo?
+                                    </p>
+                                </a>
+                                <a href="#!">
+                                    <p class="icon-service"><i class="fa fa-truck"></i></p>
+                                    <p class="tittle-service">Título Servicio</p>
+                                    <p class="description-service">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolores ea
+                                        nostrum in at, sequi quae dicta praesentium ad veritatis, saepe a commodi
+                                        assumenda nobis corporis voluptates officiis ipsa illo?
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- SECCION PRECIOS -->
+    <section id="precio">
+
+        <div class="container-post">
+            <h1>Productos</h1>
+
+            <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+            <input type="radio" id="CPU" name="categories" value="CPU">
+            <input type="radio" id="MONITORES" name="categories" value="MONITORES">
+            <input type="radio" id="TECLADOS" name="categories" value="TECLADOS">
+            <input type="radio" id="MOUSE" name="categories" value="MOUSE">
+            <input type="radio" id="TABLETS" name="categories" value="TABLETS">
+            <input type="radio" id="NOTEBOOKS" name="categories" value="NOTEBOOKS">
+            <input type="radio" id="AURICULARES" name="categories" value="AURICULARES">
+            <input type="radio" id="PARLANTES" name="categories" value="PARLANTES">
+            <input type="radio" id="DEXTERNOS" name="categories" value="DEXTERNOS">
+            <input type="radio" id="RAM" name="categories" value="RAM">
+            <input type="radio" id="DSSD" name="categories" value="DSSD">
+            <input type="radio" id="CABLES" name="categories" value="CABLES">
+            <input type="radio" id="JOYSTICK" name="categories" value="JOYSTICK">
+            <input type="radio" id="JUEGOSPC" name="categories" value="JUEGOSPC">
+            <input type="radio" id="SMARTWATCH" name="categories" value="SMARTWATCH">
+            <input type="radio" id="PENDRIVE" name="categories" value="PENDRIVE">
+
+
+            <div class="container-category">
+                <label for="TODOS">TODOS</label>
+                <label for="CPU">CPU</label>
+                <label for="MONITORES">MONITORES</label>
+                <label for="TECLADOS">TECLADOS</label>
+                <label for="MOUSE">MOUSE</label>
+                <label for="TABLETS">TABLETS</label>
+                <label for="NOTEBOOKS">NOTEBOOKS</label>
+                <label for="AURICULARES">AURICULARES</label>
+                <label for="PARLANTES">PARLANTES</label>
+                <label for="DEXTERNOS">DISCOS EXTERNOS</label>
+                <label for="RAM">MEMORIA RAM</label>
+                <label for="DSSD">DISCOS SSD</label>
+                <label for="CABLES">CABLES</label>
+                <label for="JOYSTICK">JOYSTICK</label>
+                <label for="JUEGOSPC">JUEGOS PC</label>
+                <label for="SMARTWATCH">SMARTWATCH</label>
+                <label for="PENDRIVE">PEN DRIVE</label>
+
+            </div>
+
+            <div class="posts">
+
+                <div class="post" data-category="CPU">
+
+                    <div class="ctn-img">
+                        <img src="img/CPU.jpg" alt="">
+                    </div>
+                    <h2>Computadora Armada</h2>
+                    <span>$135.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Intel Core i3 2100</li>
+                        <li>Disco Duro 240 GB</li>
+                        <li>Memoria RAM 8 GB</li>
+                    </ul>
+
+                </div>
+                <div class="post" data-category="MONITORES">
+
+                    <div class="ctn-img">
+                        <img src="img/monitor.jpg" alt="">
+                    </div>
+                    <h2>Monitor Philips LED</h2>
+                    <span>$60.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>24 Pulgadas</li>
+                        <li>Pantalla Antirreflejo</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TECLADOS">
+
+                    <div class="ctn-img">
+                        <img src="img/teclado.jpg" alt="">
+                    </div>
+                    <h2>Tempest Diablo Teclado</h2>
+                    <span>$10.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>Switch RED</li>
+                        <li>20 modos de iluminación</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="MOUSE">
+
+                    <div class="ctn-img">
+                        <img src="img/mouse.jpg" alt="">
+                    </div>
+                    <h2>Mouse Gamming</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Cantidad de botones: 6</li>
+                        <li>Resolución de movimiento: 4200 DPI</li>
+                        <li>Iluminación de color: Rojo</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TABLETS">
+
+                    <div class="ctn-img">
+                        <img src="img/tablet.jpg" alt="">
+                    </div>
+                    <h2>Lenovo Tab M10 Plus</h2>
+                    <span>$35.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Memoria Interna 128 GB</li>
+                        <li>Pantalla Táctil 10,6"</li>
+                        <li>Batería 7500mAh</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="NOTEBOOKS">
+
+                    <div class="ctn-img">
+                        <img src="img/NOTEBOOK.jpg" alt="">
+                    </div>
+                    <h2>HP Notebook</h2>
+                    <span>$120.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Disco SSD 64 GB</li>
+                        <li>Pantalla 14"</li>
+                        <li>Memoria RAM 4GB</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="AURICULARES">
+
+                    <div class="ctn-img">
+                        <img src="img/auriculares.jpg" alt="">
+                    </div>
+                    <h2>Auriculares Inalambricos Logitech G733 Lightspeed </h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Respuesta de frecuencia: 20 Hz - 20 kHz</li>
+                        <li>Midrofono integrado</li>
+                        <li>LIGHTSPEED RGB para Gaming</li>
+                    </ul>
+                </div>
+
+                <div class="post" data-category="PARLANTES">
+
+                    <div class="ctn-img">
+                        <img src="img/parlantes.jpg" alt="">
+                    </div>
+                    <h2>Logitech Z333 Speaker 80W</h2>
+                    <span>$50.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Conexiones: RCA estéreo y 3,5 mm</li>
+                        <li>Toma de auriculares</li>
+                        <li>Subwoofer: 23 cm x 22 cm x 14 cm</li>
+                        <li>Respuesta de frecuencia: 55 Hz – 20 kHz</li>
+                    </ul>
+                </div>
+
+                <div class="post" data-category="DEXTERNOS">
+
+                    <div class="ctn-img">
+                        <img src="img/disco externo.jpg" alt="">
+                    </div>
+                    <h2>Disco Duro Externo Toshiba</h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1 TB</li>
+                        <li>Conexión USB: Si</li>
+                        <li>Velocidad de transferencia de datos: 5000 Mbit/s</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="RAM">
+
+                    <div class="ctn-img">
+                        <img src="img/ram.jpg" alt="">
+                    </div>
+                    <h2>Kingston FURY</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>LED RGB Sí</li>
+                        <li>Frecuencia(s) memoria DDR4 3200 MHz</li>
+                        <li>Número de módulos de memoria 2</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DSSD">
+
+                    <div class="ctn-img">
+                        <img src="img/SSD.jpg" alt="">
+                    </div>
+                    <h2>Kingston NV2 SSD</h2>
+                    <span>$90.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1TB</li>
+                        <li>Lectura/escritura secuencial
+                            1 TB – 3.500/2.100 MB/s</li>
+                        <li>Temperatura de servicio 0 °C ~ 70 °C</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="CABLES">
+
+                    <div class="ctn-img">
+                        <img src="img/hdmi.jpg" alt="">
+                    </div>
+                    <h2>Cable HDMI 2.0</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Longitud de 5 metros. </li>
+                        <li>Calidad de imagen 4K</li>
+                        <li>Calibre 30 AWG</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JOYSTICK">
+
+                    <div class="ctn-img">
+                        <img src="img/joystick.jpg" alt="">
+                    </div>
+                    <h2>Logitech Extreme 3D Pro Joystick PC</h2>
+                    <span>$60.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Tipo de dispositivo: Palanca de mando</li>
+                        <li>Plataformas de juego soportadas: PC</li>
+                        <li>Botones programables: Si</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JUEGOSPC">
+
+                    <div class="ctn-img">
+                        <img src="img/juego.jpg" alt="">
+                    </div>
+                    <h2>Dirt 5 PC</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+
+                    </ul>
+                </div>
+                <div class="post" data-category="SMARTWATCH">
+
+                    <div class="ctn-img">
+                        <img src="img/reloj.jpg" alt="">
+                    </div>
+                    <h2>Xiaomi Redmi Watch 2 Lite Reloj Smartwatch Negro</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Pantalla táctil colorida de 1,55"</li>
+                        <li>Hasta 10 días de duración de la batería</li>
+                        <li>GPS autónomo multisistema</li>
+                        <li>Sensores: Sensor óptico de frecuencia cardíaca, acelerómetro, giroscopio, brújula
+                            electrónica</li>
+
+                    </ul>
+                </div>
+                <div class="post" data-category="PENDRIVE">
+
+                    <div class="ctn-img">
+                        <img src="img/usb.jpg" alt="">
+                    </div>
+                    <h2>Sandisk Ultra Flair 128GB USB 3.0</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Rendimiento/velocidad: Velocidades de transferencia de hasta 150 MB/s</li>
+                        <li>Compatibilidad: USB 3.0 (compatible también USB 2.0)</li>
+                        <li>Temperatura de funcionamiento: 0° – 45 °C</li>
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+                <div class="post" data-category="CPU">
+
+                    <div class="ctn-img">
+                        <img src="img/CPU.jpg" alt="">
+                    </div>
+                    <h2>Computadora Armada</h2>
+                    <span>$135.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Intel Core i3 2100</li>
+                        <li>Disco Duro 240 GB</li>
+                        <li>Memoria RAM 8 GB</li>
+                    </ul>
+                </div>
+
+                <div class="post" data-category="MONITORES">
+
+                    <div class="ctn-img">
+                        <img src="img/monitor.jpg" alt="">
+                    </div>
+                    <h2>Monitor Philips LED</h2>
+                    <span>$60.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>24 Pulgadas</li>
+                        <li>Pantalla Antirreflejo</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TECLADOS">
+
+                    <div class="ctn-img">
+                        <img src="img/teclado.jpg" alt="">
+                    </div>
+                    <h2>Tempest Diablo Teclado</h2>
+                    <span>$10.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>Switch RED</li>
+                        <li>20 modos de iluminación</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="MOUSE">
+
+                    <div class="ctn-img">
+                        <img src="img/mouse.jpg" alt="">
+                    </div>
+                    <h2>Mouse Gamming</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Cantidad de botones: 6</li>
+                        <li>Resolución de movimiento: 4200 DPI</li>
+                        <li>Iluminación de color: Rojo</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TABLETS">
+
+                    <div class="ctn-img">
+                        <img src="img/tablet.jpg" alt="">
+                    </div>
+                    <h2>Lenovo Tab M10 Plus</h2>
+                    <span>$35.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Memoria Interna 128 GB</li>
+                        <li>Pantalla Táctil 10,6"</li>
+                        <li>Batería 7500mAh</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="NOTEBOOKS">
+
+                    <div class="ctn-img">
+                        <img src="img/NOTEBOOK.jpg" alt="">
+                    </div>
+                    <h2>HP Notebook</h2>
+                    <span>$120.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Disco SSD 64 GB</li>
+                        <li>Pantalla 14"</li>
+                        <li>Memoria RAM 4GB</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="AURICULARES">
+
+                    <div class="ctn-img">
+                        <img src="img/auriculares.jpg" alt="">
+                    </div>
+                    <h2>Auriculares Inalambricos Logitech G733 Lightspeed </h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Respuesta de frecuencia: 20 Hz - 20 kHz</li>
+                        <li>Midrofono integrado</li>
+                        <li>LIGHTSPEED RGB para Gaming</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="PARLANTES">
+
+                    <div class="ctn-img">
+                        <img src="img/parlantes.jpg" alt="">
+                    </div>
+                    <h2>Logitech Z333 Speaker 80W</h2>
+                    <span>$50.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Conexiones: RCA estéreo y 3,5 mm</li>
+                        <li>Toma de auriculares</li>
+                        <li>Subwoofer: 23 cm x 22 cm x 14 cm</li>
+                        <li>Respuesta de frecuencia: 55 Hz – 20 kHz</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DEXTERNOS">
+
+                    <div class="ctn-img">
+                        <img src="img/disco externo.jpg" alt="">
+                    </div>
+                    <h2>Disco Duro Externo Toshiba</h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1 TB</li>
+                        <li>Conexión USB: Si</li>
+                        <li>Velocidad de transferencia de datos: 5000 Mbit/s</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="RAM">
+
+                    <div class="ctn-img">
+                        <img src="img/ram.jpg" alt="">
+                    </div>
+                    <h2>Kingston FURY</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>LED RGB Sí</li>
+                        <li>Frecuencia(s) memoria DDR4 3200 MHz</li>
+                        <li>Número de módulos de memoria 2</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DSSD">
+
+                    <div class="ctn-img">
+                        <img src="img/SSD.jpg" alt="">
+                    </div>
+                    <h2>Kingston NV2 SSD</h2>
+                    <span>$90.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1TB</li>
+                        <li>Lectura/escritura secuencial
+                            1 TB – 3.500/2.100 MB/s</li>
+                        <li>Temperatura de servicio 0 °C ~ 70 °C</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="CABLES">
+
+                    <div class="ctn-img">
+                        <img src="img/hdmi.jpg" alt="">
+                    </div>
+                    <h2>Cable HDMI 2.0</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Longitud de 5 metros. </li>
+                        <li>Calidad de imagen 4K</li>
+                        <li>Calibre 30 AWG</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JOYSTICK">
+
+                    <div class="ctn-img">
+                        <img src="img/joystick.jpg" alt="">
+                    </div>
+                    <h2>Logitech Extreme 3D Pro Joystick PC</h2>
+                    <span>$60.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Tipo de dispositivo: Palanca de mando</li>
+                        <li>Plataformas de juego soportadas: PC</li>
+                        <li>Botones programables: Si</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JUEGOSPC">
+
+                    <div class="ctn-img">
+                        <img src="img/juego.jpg" alt="">
+                    </div>
+                    <h2>Dirt 5 PC</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+
+                    </ul>
+                </div>
+                <div class="post" data-category="SMARTWATCH">
+
+                    <div class="ctn-img">
+                        <img src="img/reloj.jpg" alt="">
+                    </div>
+                    <h2>Xiaomi Redmi Watch 2 Lite Reloj Smartwatch Negro</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Pantalla táctil colorida de 1,55"</li>
+                        <li>Hasta 10 días de duración de la batería</li>
+                        <li>GPS autónomo multisistema</li>
+                        <li>Sensores: Sensor óptico de frecuencia cardíaca, acelerómetro, giroscopio, brújula
+                            electrónica</li>
+
+                    </ul>
+                </div>
+                <div class="post" data-category="PENDRIVE">
+
+                    <div class="ctn-img">
+                        <img src="img/usb.jpg" alt="">
+                    </div>
+                    <h2>Sandisk Ultra Flair 128GB USB 3.0</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Rendimiento/velocidad: Velocidades de transferencia de hasta 150 MB/s</li>
+                        <li>Compatibilidad: USB 3.0 (compatible también USB 2.0)</li>
+                        <li>Temperatura de funcionamiento: 0° – 45 °C</li>
+
+
+                    </ul>
+                </div>
+
+
+
+
+                <div class="post" data-category="CPU">
+
+                    <div class="ctn-img">
+                        <img src="img/CPU.jpg" alt="">
+                    </div>
+                    <h2>Computadora Armada</h2>
+                    <span>$135.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Intel Core i3 2100</li>
+                        <li>Disco Duro 240 GB</li>
+                        <li>Memoria RAM 8 GB</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="MONITORES">
+
+                    <div class="ctn-img">
+                        <img src="img/monitor.jpg" alt="">
+                    </div>
+                    <h2>Monitor Philips LED</h2>
+                    <span>$60.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>24 Pulgadas</li>
+                        <li>Pantalla Antirreflejo</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TECLADOS">
+
+                    <div class="ctn-img">
+                        <img src="img/teclado.jpg" alt="">
+                    </div>
+                    <h2>Tempest Diablo Teclado</h2>
+                    <span>$10.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>Switch RED</li>
+                        <li>20 modos de iluminación</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="MOUSE">
+
+                    <div class="ctn-img">
+                        <img src="img/mouse.jpg" alt="">
+                    </div>
+                    <h2>Mouse Gamming</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Cantidad de botones: 6</li>
+                        <li>Resolución de movimiento: 4200 DPI</li>
+                        <li>Iluminación de color: Rojo</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TABLETS">
+
+                    <div class="ctn-img">
+                        <img src="img/tablet.jpg" alt="">
+                    </div>
+                    <h2>Lenovo Tab M10 Plus</h2>
+                    <span>$35.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Memoria Interna 128 GB</li>
+                        <li>Pantalla Táctil 10,6"</li>
+                        <li>Batería 7500mAh</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="NOTEBOOKS">
+
+                    <div class="ctn-img">
+                        <img src="img/NOTEBOOK.jpg" alt="">
+                    </div>
+                    <h2>HP Notebook</h2>
+                    <span>$120.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Disco SSD 64 GB</li>
+                        <li>Pantalla 14"</li>
+                        <li>Memoria RAM 4GB</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="AURICULARES">
+
+                    <div class="ctn-img">
+                        <img src="img/auriculares.jpg" alt="">
+                    </div>
+                    <h2>Auriculares Inalambricos Logitech G733 Lightspeed </h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Respuesta de frecuencia: 20 Hz - 20 kHz</li>
+                        <li>Midrofono integrado</li>
+                        <li>LIGHTSPEED RGB para Gaming</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="PARLANTES">
+
+                    <div class="ctn-img">
+                        <img src="img/parlantes.jpg" alt="">
+                    </div>
+                    <h2>Logitech Z333 Speaker 80W</h2>
+                    <span>$50.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Conexiones: RCA estéreo y 3,5 mm</li>
+                        <li>Toma de auriculares</li>
+                        <li>Subwoofer: 23 cm x 22 cm x 14 cm</li>
+                        <li>Respuesta de frecuencia: 55 Hz – 20 kHz</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DEXTERNOS">
+
+                    <div class="ctn-img">
+                        <img src="img/disco externo.jpg" alt="">
+                    </div>
+                    <h2>Disco Duro Externo Toshiba</h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1 TB</li>
+                        <li>Conexión USB: Si</li>
+                        <li>Velocidad de transferencia de datos: 5000 Mbit/s</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="RAM">
+
+                    <div class="ctn-img">
+                        <img src="img/ram.jpg" alt="">
+                    </div>
+                    <h2>Kingston FURY</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>LED RGB Sí</li>
+                        <li>Frecuencia(s) memoria DDR4 3200 MHz</li>
+                        <li>Número de módulos de memoria 2</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DSSD">
+
+                    <div class="ctn-img">
+                        <img src="img/SSD.jpg" alt="">
+                    </div>
+                    <h2>Kingston NV2 SSD</h2>
+                    <span>$90.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1TB</li>
+                        <li>Lectura/escritura secuencial
+                            1 TB – 3.500/2.100 MB/s</li>
+                        <li>Temperatura de servicio 0 °C ~ 70 °C</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="CABLES">
+
+                    <div class="ctn-img">
+                        <img src="img/hdmi.jpg" alt="">
+                    </div>
+                    <h2>Cable HDMI 2.0</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Longitud de 5 metros. </li>
+                        <li>Calidad de imagen 4K</li>
+                        <li>Calibre 30 AWG</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JOYSTICK">
+
+                    <div class="ctn-img">
+                        <img src="img/joystick.jpg" alt="">
+                    </div>
+                    <h2>Logitech Extreme 3D Pro Joystick PC</h2>
+                    <span>$60.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Tipo de dispositivo: Palanca de mando</li>
+                        <li>Plataformas de juego soportadas: PC</li>
+                        <li>Botones programables: Si</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JUEGOSPC">
+
+                    <div class="ctn-img">
+                        <img src="img/juego.jpg" alt="">
+                    </div>
+                    <h2>Dirt 5 PC</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+
+                    </ul>
+                </div>
+                <div class="post" data-category="SMARTWATCH">
+
+                    <div class="ctn-img">
+                        <img src="img/reloj.jpg" alt="">
+                    </div>
+                    <h2>Xiaomi Redmi Watch 2 Lite Reloj Smartwatch Negro</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Pantalla táctil colorida de 1,55"</li>
+                        <li>Hasta 10 días de duración de la batería</li>
+                        <li>GPS autónomo multisistema</li>
+                        <li>Sensores: Sensor óptico de frecuencia cardíaca, acelerómetro, giroscopio, brújula
+                            electrónica</li>
+
+                    </ul>
+                </div>
+                <div class="post" data-category="PENDRIVE">
+
+                    <div class="ctn-img">
+                        <img src="img/usb.jpg" alt="">
+                    </div>
+                    <h2>Sandisk Ultra Flair 128GB USB 3.0</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Rendimiento/velocidad: Velocidades de transferencia de hasta 150 MB/s</li>
+                        <li>Compatibilidad: USB 3.0 (compatible también USB 2.0)</li>
+                        <li>Temperatura de funcionamiento: 0° – 45 °C</li>
+
+
+                    </ul>
+                </div>
+
+
+
+
+                <div class="post" data-category="CPU">
+
+                    <div class="ctn-img">
+                        <img src="img/CPU.jpg" alt="">
+                    </div>
+                    <h2>Computadora Armada</h2>
+                    <span>$135.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Intel Core i3 2100</li>
+                        <li>Disco Duro 240 GB</li>
+                        <li>Memoria RAM 8 GB</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="post" data-category="MONITORES">
+
+                    <div class="ctn-img">
+                        <img src="img/monitor.jpg" alt="">
+                    </div>
+                    <h2>Monitor Philips LED</h2>
+                    <span>$60.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>24 Pulgadas</li>
+                        <li>Pantalla Antirreflejo</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TECLADOS">
+
+                    <div class="ctn-img">
+                        <img src="img/teclado.jpg" alt="">
+                    </div>
+                    <h2>Tempest Diablo Teclado</h2>
+                    <span>$60.500</span>
+
+                    <ul class="ctn-tag">
+                        <li>Switch RED</li>
+                        <li>20 modos de iluminación</li>
+                        <li>Tipos de conexión: VGA, HDMI.</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="MOUSE">
+
+                    <div class="ctn-img">
+                        <img src="img/mouse.jpg" alt="">
+                    </div>
+                    <h2>Mouse Gamming</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Cantidad de botones: 6</li>
+                        <li>Resolución de movimiento: 4200 DPI</li>
+                        <li>Iluminación de color: Rojo</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="TABLETS">
+
+                    <div class="ctn-img">
+                        <img src="img/tablet.jpg" alt="">
+                    </div>
+                    <h2>Lenovo Tab M10 Plus</h2>
+                    <span>$35.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Memoria Interna 128 GB</li>
+                        <li>Pantalla Táctil 10,6"</li>
+                        <li>Batería 7500mAh</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="NOTEBOOKS">
+
+                    <div class="ctn-img">
+                        <img src="img/NOTEBOOK.jpg" alt="">
+                    </div>
+                    <h2>HP Notebook</h2>
+                    <span>$120.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Disco SSD 64 GB</li>
+                        <li>Pantalla 14"</li>
+                        <li>Memoria RAM 4GB</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="AURICULARES">
+
+                    <div class="ctn-img">
+                        <img src="img/auriculares.jpg" alt="">
+                    </div>
+                    <h2>Auriculares Inalambricos Logitech G733 Lightspeed </h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Respuesta de frecuencia: 20 Hz - 20 kHz</li>
+                        <li>Midrofono integrado</li>
+                        <li>LIGHTSPEED RGB para Gaming</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="PARLANTES">
+
+                    <div class="ctn-img">
+                        <img src="img/parlantes.jpg" alt="">
+                    </div>
+                    <h2>Logitech Z333 Speaker 80W</h2>
+                    <span>$50.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Conexiones: RCA estéreo y 3,5 mm</li>
+                        <li>Toma de auriculares</li>
+                        <li>Subwoofer: 23 cm x 22 cm x 14 cm</li>
+                        <li>Respuesta de frecuencia: 55 Hz – 20 kHz</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DEXTERNOS">
+                    <div class="ctn-img">
+                        <img src="img/disco externo.jpg" alt="">
+                    </div>
+                    <h2>Disco Duro Externo Toshiba</h2>
+                    <span>$15.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1 TB</li>
+                        <li>Conexión USB: Si</li>
+                        <li>Velocidad de transferencia de datos: 5000 Mbit/s</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="RAM">
+
+                    <div class="ctn-img">
+                        <img src="img/ram.jpg" alt="">
+                    </div>
+                    <h2>Kingston FURY</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>LED RGB Sí</li>
+                        <li>Frecuencia(s) memoria DDR4 3200 MHz</li>
+                        <li>Número de módulos de memoria 2</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="DSSD">
+
+                    <div class="ctn-img">
+                        <img src="img/SSD.jpg" alt="">
+                    </div>
+                    <h2>Kingston NV2 SSD</h2>
+                    <span>$90.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Capacidad 1TB</li>
+                        <li>Lectura/escritura secuencial
+                            1 TB – 3.500/2.100 MB/s</li>
+                        <li>Temperatura de servicio 0 °C ~ 70 °C</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="CABLES">
+
+                    <div class="ctn-img">
+                        <img src="img/hdmi.jpg" alt="">
+                    </div>
+                    <h2>Cable HDMI 2.0</h2>
+                    <span>$5.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Longitud de 5 metros. </li>
+                        <li>Calidad de imagen 4K</li>
+                        <li>Calibre 30 AWG</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JOYSTICK">
+
+                    <div class="ctn-img">
+                        <img src="img/joystick.jpg" alt="">
+                    </div>
+                    <h2>Logitech Extreme 3D Pro Joystick PC</h2>
+                    <span>$60.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Tipo de dispositivo: Palanca de mando</li>
+                        <li>Plataformas de juego soportadas: PC</li>
+                        <li>Botones programables: Si</li>
+                    </ul>
+                </div>
+                <div class="post" data-category="JUEGOSPC">
+
+                    <div class="ctn-img">
+                        <img src="img/juego.jpg" alt="">
+                    </div>
+                    <h2>Dirt 5 PC</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+
+                    </ul>
+                </div>
+                <div class="post" data-category="SMARTWATCH">
+
+                    <div class="ctn-img">
+                        <img src="img/reloj.jpg" alt="">
+                    </div>
+                    <h2>Xiaomi Redmi Watch 2 Lite Reloj Smartwatch Negro</h2>
+                    <span>$20.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Pantalla táctil colorida de 1,55"</li>
+                        <li>Hasta 10 días de duración de la batería</li>
+                        <li>GPS autónomo multisistema</li>
+                        <li>Sensores: Sensor óptico de frecuencia cardíaca, acelerómetro, giroscopio, brújula
+                            electrónica</li>
+
+                    </ul>
+                </div>
+                <div class="post" data-category="PENDRIVE">
+
+                    <div class="ctn-img">
+                        <img src="img/usb.jpg" alt="">
+                    </div>
+                    <h2>Sandisk Ultra Flair 128GB USB 3.0</h2>
+                    <span>$10.000</span>
+
+                    <ul class="ctn-tag">
+                        <li>Rendimiento/velocidad: Velocidades de transferencia de hasta 150 MB/s</li>
+                        <li>Compatibilidad: USB 3.0 (compatible también USB 2.0)</li>
+                        <li>Temperatura de funcionamiento: 0° – 45 °C</li>
+
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        
+
+
+    </section>
+
+
+
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Tecno Store</h1>
+
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#precio">Productos</a>
+
+
+
+            </div>
+
+            <div class="col">
+                <h3>Redes Sociales</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook"></i> <a target="blank" href="">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a target="blank" href="">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div><br><br>
+        <div class="copyright">
+            <p>
+                Desarrollado por Ramiro Atencio &copy; 2023 </p>
+
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+
+    <a href="https://api.whatsapp.com/send?phone=03865-XXXXXX&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i></a>
+
+
+
+</body>
+
+</html>
